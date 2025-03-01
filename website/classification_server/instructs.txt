@@ -1,0 +1,17 @@
+This is the server that externally runs the cnn for flower classification.
+The model currently processes 5 types of flowers.
+
+to run the server, cd into 
+{
+    classification_server
+}
+
+then run in terminal
+{
+    python server.py
+}
+
+there is a python file in this directory called "testing.py"
+this has minimal functional code for making post requests to Interface
+with the server. Currently it is set up to send over the "sf.jpg" file
+which is a wikepedia image of a sunflower
